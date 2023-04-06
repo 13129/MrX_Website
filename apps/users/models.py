@@ -1,18 +1,20 @@
-import uuid, os
-from django.db import models
+import os
+import uuid
+from datetime import datetime
+
 from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.signals import user_logged_in
+from django.db import models
 from django.utils.html import format_html
-
 from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFill
 
 
 # Create your models here.
-def user_mugshot_path(instance, filename):
+def user_mugshot_path(filename):
     ext = filename.split('.')[-1]
     filename = '{}.{}'.format(uuid.uuid4().hex[:8], ext)
-    return os.path.join('login/uploads/avatar', str(instance.id), filename)
+    return os.path.join('users/avatar', str(datetime.now().date()), filename)
 
 
 def get_ip_from_request(request):

@@ -1,0 +1,409 @@
+Index: .idea/MrX_Website.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"django\" name=\"Django\">\r\n      <configuration>\r\n        <option name=\"rootFolder\" value=\"$MODULE_DIR$\" />\r\n        <option name=\"settingsModule\" value=\"MrX_Website/settings.py\" />\r\n        <option name=\"manageScript\" value=\"$MODULE_DIR$/manage.py\" />\r\n        <option name=\"environment\" value=\"&lt;map/&gt;\" />\r\n        <option name=\"doNotUseTestRunner\" value=\"false\" />\r\n        <option name=\"trackFilePattern\" value=\"migrations\" />\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.10\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n  <component name=\"TemplatesService\">\r\n    <option name=\"TEMPLATE_CONFIGURATION\" value=\"Django\" />\r\n    <option name=\"TEMPLATE_FOLDERS\">\r\n      <list>\r\n        <option value=\"$MODULE_DIR$/templates\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/MrX_Website.iml b/.idea/MrX_Website.iml
+--- a/.idea/MrX_Website.iml	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/.idea/MrX_Website.iml	(date 1680763704019)
+@@ -13,7 +13,17 @@
+     </facet>
+   </component>
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/1" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/2" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/3" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/4" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/5" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/6" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/7" />
++      <excludeFolder url="file://$MODULE_DIR$/media/login" />
++      <excludeFolder url="file://$MODULE_DIR$/media/video" />
++    </content>
+     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"da1d1009-7b7a-4110-aa10-1b3cdbecc683\" name=\"变更\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/MrX_Website/simpleui_config.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/media/video/df2833de828745489467745ab7a6bbda/企查查批量查询-基础工商信息202303170851.xls\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/MrX_Website.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/MrX_Website.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/MrX_Website/settings.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/MrX_Website/settings.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/apps/__init__.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/apps/__init__.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/apps/data_tools/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/apps/data_tools/admin.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/apps/extension_tools/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/apps/extension_tools/admin.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/apps/users/admin.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/apps/users/admin.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/db.sqlite3\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/db.sqlite3\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DjangoConsoleOptions\" custom-start-script=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\">\r\n    <option name=\"myCustomStartScript\" value=\"import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FlaskConsoleOptions\" custom-start-script=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\">\r\n    <envs>\r\n      <env key=\"FLASK_APP\" value=\"app\" />\r\n    </envs>\r\n    <option name=\"myCustomStartScript\" value=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\" />\r\n    <option name=\"myEnvs\">\r\n      <map>\r\n        <entry key=\"FLASK_APP\" value=\"app\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/MrX_Website/simpleui_config.py\" root0=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2NiaeGfsZpQzzX6RRksdCGumfZ4\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"Errors\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\Workspace\\py_frame\\MrX_Website\\apps\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"MrX_Website\" type=\"Python.DjangoServer\" factoryName=\"Django server\">\r\n      <module name=\"MrX_Website\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n        <env name=\"DJANGO_SETTINGS_MODULE\" value=\"MrX_Website.settings\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <option name=\"port\" value=\"8000\" />\r\n      <option name=\"host\" value=\"\" />\r\n      <option name=\"additionalOptions\" value=\"\" />\r\n      <option name=\"browserUrl\" value=\"\" />\r\n      <option name=\"runTestServer\" value=\"false\" />\r\n      <option name=\"runNoReload\" value=\"false\" />\r\n      <option name=\"useCustomRunCommand\" value=\"false\" />\r\n      <option name=\"customRunCommand\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"da1d1009-7b7a-4110-aa10-1b3cdbecc683\" name=\"变更\" comment=\"\" />\r\n      <created>1680149449377</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1680149449377</updated>\r\n      <workItem from=\"1680149450642\" duration=\"10220000\" />\r\n      <workItem from=\"1680749636880\" duration=\"4000\" />\r\n      <workItem from=\"1680749654641\" duration=\"9602000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"整合所有版本的功能\">\r\n      <created>1680750485981</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680750485981</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"整合所有版本的功能\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"整合所有版本的功能\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/.idea/workspace.xml	(date 1680763843357)
+@@ -104,7 +104,7 @@
+       <updated>1680149449377</updated>
+       <workItem from="1680149450642" duration="10220000" />
+       <workItem from="1680749636880" duration="4000" />
+-      <workItem from="1680749654641" duration="9602000" />
++      <workItem from="1680749654641" duration="9955000" />
+     </task>
+     <task id="LOCAL-00001" summary="整合所有版本的功能">
+       <created>1680750485981</created>
+@@ -113,7 +113,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680750485981</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="版本修复主题">
++      <created>1680763818108</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1680763818108</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -145,6 +152,9 @@
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="整合所有版本的功能" />
+-    <option name="LAST_COMMIT_MESSAGE" value="整合所有版本的功能" />
++    <MESSAGE value="版本修复主题" />
++    <option name="LAST_COMMIT_MESSAGE" value="版本修复主题" />
++    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
++    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: apps/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># -*- coding: utf-8 -*-\r\n# @Time    : 2022/12/28 11:42\r\n# @Author  : DivingKitten\r\n# @desc    :\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/apps/__init__.py b/apps/__init__.py
+--- a/apps/__init__.py	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/apps/__init__.py	(date 1680759893522)
+@@ -2,3 +2,29 @@
+ # @Time    : 2022/12/28 11:42
+ # @Author  : DivingKitten
+ # @desc    :
++from django.contrib import admin
++from django.contrib.admin.apps import AdminConfig
++
++apps_order_list = ['users', 'auth', 'blogs', 'data_tools', 'extension_tools']
++apps_order_dict = {app: index for index, app in enumerate(apps_order_list)}
++
++
++class XAdminSite(admin.AdminSite):
++
++    def index(self, request, extra_context=None):
++        if extra_context is None:
++            extra_context = {}
++
++        app_list = self.get_app_list(request)
++        app_dict = self._build_app_dict(request)
++
++        print(app_dict.keys())
++
++        app_list.sort(key=lambda element_dict: apps_order_dict[element_dict["app_label"]])
++
++        extra_context['app_list'] = app_list
++        return super(XAdminSite, self).index(request, extra_context)
++
++
++class XAdminConfig(AdminConfig):
++    default_site = 'apps.XAdminSite'
+Index: apps/users/admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from django import forms\r\nfrom django.contrib import admin\r\nfrom django.contrib.auth.admin import UserAdmin as BaseUserAdmin  # 从django继承过来定制\r\nfrom django.contrib.auth.forms import ReadOnlyPasswordHashField  # 哈希加密\r\nfrom django.db.models import Q\r\nfrom django.utils.translation import gettext_lazy as _  # 字段国际化\r\n\r\nfrom .models import Users\r\nfrom django.contrib.auth.models import Group\r\n\r\n\r\nclass UserCreationForm(forms.ModelForm):\r\n    \"\"\"创建新用户的表单\"\"\"\r\n    username = forms.CharField(label='用户名', widget=forms.TextInput)\r\n    password1 = forms.CharField(label='密码', widget=forms.PasswordInput)\r\n    password2 = forms.CharField(label='确认密码', widget=forms.PasswordInput)\r\n    email = forms.EmailField(label='邮箱', widget=forms.EmailInput)\r\n\r\n    class Meta:\r\n        model = Users\r\n        fields = ['username', 'password1', 'password2', 'email']\r\n\r\n    def clean_password2(self):\r\n        # 检查密码是否匹配\r\n        password1 = self.cleaned_data.get(\"password1\")\r\n        password2 = self.cleaned_data.get(\"password2\")\r\n        if password1 and password2 and password1 != password2:\r\n            raise forms.ValidationError(\"密码不匹配\")\r\n        return password2\r\n\r\n    def save(self, commit=True):\r\n        # 密码哈希加密\r\n        user = super(UserCreationForm, self).save(commit=False)\r\n        user.set_password(self.cleaned_data[\"password1\"])\r\n        if commit:\r\n            user.save()\r\n        return user\r\n\r\n\r\nclass UserChangeForm(forms.ModelForm):\r\n    \"\"\"用于修改用户的表单。将密码字段替换为管理员的密码加密显示字段。\"\"\"\r\n    password = ReadOnlyPasswordHashField()  # hash加密\r\n\r\n    class Meta:\r\n        model = Users\r\n        fields = ['username', 'password', 'email']\r\n\r\n    def clean_password(self):\r\n        # 无论用户提供什么，都返回初始值,字段无权访问初始值\r\n        return self.initial[\"password\"]\r\n\r\n\r\n@admin.register(Users)\r\nclass UsersAdmin(BaseUserAdmin):\r\n    def __init__(self, *args, **kwargs):\r\n        super().__init__(*args, **kwargs)\r\n        self.list_display = ('image_data', 'username', 'email', 'is_active', 'is_staff',)\r\n        self.search_fields = ('username', 'email',)\r\n        self.list_display_links = ('username',)\r\n        self.list_filter = ('last_login',)\r\n        self.form = UserChangeForm  # 编辑用户表单，使用自定义的表单\r\n        self.add_form = UserCreationForm\r\n\r\n    # 重写用户权限\r\n    def changelist_view(self, request, extra_context=None):\r\n        # 这个方法在源码的admin/options.py文件的ModelAdmin这个类中定义，不同权限的用户，返回的表单内容不同\r\n        if not request.user.is_superuser:  # 用于显示用户模型的字段。这些将覆盖基本UserAdmin上的定义,引用auth.User上的特定字段。\r\n            self.fieldsets = ((None,\r\n                               {'fields': ('mugshot', 'username', 'password',)}),\r\n                              (_('Personal info'), {'fields': ('email',)}),\r\n                              # _ 将('')里的内容国际化,这样可以让admin里的文字自动随着LANGUAGE_CODE切换中英文\r\n                              (_('Permissions'), {'fields': ('is_active', 'is_staff', 'groups')}),\r\n                              )\r\n            # 这里('Permissions')中没有'is_superuser',此字段定义UserChangeForm表单中的具体显示内容，并可以分类显示\r\n            self.add_fieldsets = ((None, {'classes': ('wide',),\r\n                                          'fields': (\r\n                                              'mugshot', 'username', 'password1', 'password2', 'email', 'is_active',\r\n                                              'groups'),\r\n                                          }),\r\n                                  )\r\n        else:  # super账户可以做任何事\r\n            self.fieldsets = ((None, {'fields': ('mugshot', 'username', 'password',)}),\r\n                              (_('Personal info'), {'fields': ('email',)}),\r\n                              (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups')}),\r\n                              )\r\n            self.add_fieldsets = ((None, {'classes': ('wide',),\r\n                                          'fields': (\r\n                                              'mugshot', 'username', 'password1', 'password2', 'email', 'is_active',\r\n                                              'is_staff', 'is_superuser', 'groups'),\r\n                                          }),\r\n                                  )\r\n        return super().changelist_view(request, extra_context)\r\n\r\n    def get_queryset(self, request):\r\n        us = super().get_queryset(request)\r\n        if request.user.is_superuser:\r\n            return us\r\n        else:\r\n            current_group_set = Group.objects.get(user=request.user)\r\n            group = Group.objects.get(name=current_group_set)\r\n            users = group.user_set.filter(Q(username=request.user) | Q(is_staff=False, ))\r\n            return us.filter(Q(username=request.user) | Q())\r\n\r\n# class UsersAdmin(admin.ModelAdmin):\r\n#     list_display = ('image_data', 'username', 'email', 'is_active', 'is_staff', 'is_superuser')\r\n#     search_fields = ('username', 'email',)\r\n#     list_filter = ('last_login',)\r\n#     list_display_links = ('username',)\r\n#     # readonly_fields = ('image_data',)\r\n#     form = UserChangeForm  # 编辑用户表单，使用自定义的表单\r\n#     add_form = UserCreationForm\r\n#\r\n#     fieldsets = ((None, {'fields': ('mugshot', 'nickname', 'password',)}),\r\n#                  (_('Personal info'), {'fields': ('email',)}),\r\n#                  (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups')}),\r\n#                  )\r\n#     add_fieldsets = ((None, {'classes': ('wide',),\r\n#                              'fields': (\r\n#                                  'mugshot', 'nickname', 'username', 'password1', 'password2', 'email',\r\n#                                  'is_active',\r\n#                                  'is_staff', 'is_superuser', 'groups'),\r\n#                              }),\r\n#                      )\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/apps/users/admin.py b/apps/users/admin.py
+--- a/apps/users/admin.py	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/apps/users/admin.py	(date 1680753388193)
+@@ -121,3 +121,6 @@
+ #                                  'is_staff', 'is_superuser', 'groups'),
+ #                              }),
+ #                      )
++
++
++apps_index = ["Users"]
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"InspectionProjectProfileManager\">\r\n  <settings>\r\n    <option name=\"USE_PROJECT_PROFILE\" value=\"false\" />\r\n    <version value=\"1.0\" />\r\n  </settings>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+--- a/.idea/inspectionProfiles/profiles_settings.xml	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1680760656007)
+@@ -1,5 +1,6 @@
+ <component name="InspectionProjectProfileManager">
+   <settings>
++    <option name="PROJECT_PROFILE" value="Default" />
+     <option name="USE_PROJECT_PROFILE" value="false" />
+     <version value="1.0" />
+   </settings>
+Index: apps/data_tools/admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from django.contrib import admin\r\nfrom mptt.admin import MPTTModelAdmin\r\n\r\nfrom .models import DataSource, DataSourceType, DataSourceTable, DataSourceTableField, ThemeDirectory, DirectoryTable\r\n\r\n\r\nclass DataSourceTableFieldline(admin.TabularInline):\r\n    # resource_class = DataSourceTableFieldForm\r\n    model = DataSourceTableField\r\n    list_display = (\r\n        'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'ordinal_position', 'column_is_pk')\r\n    extra = 0\r\n\r\n\r\n@admin.register(DataSource)\r\nclass DataSourceAdmin(admin.ModelAdmin):\r\n    list_display = ['meta_source_type', 'data_source_name', 'user_name', 'db_name']\r\n    search_fields = ['data_source_name']\r\n    list_display_links = ['data_source_name']\r\n\r\n    def meta_source_type(self, obj):\r\n        return obj.data_source_type\r\n\r\n    meta_source_type.short_description = \"数据源类型\"\r\n\r\n\r\n@admin.register(DataSourceTable)\r\nclass DataSourceTableAdmin(admin.ModelAdmin):\r\n    inlines = [DataSourceTableFieldline]\r\n    list_display = ['table_name_zh', 'table_name_en', 'table_logical_name', 'table_code', 'tb_data_source',\r\n                    'table_sort_id']\r\n    search_fields = ['table_name_zh', 'table_name_en']\r\n    list_display_links = ['table_name_en']\r\n\r\n    def tb_data_source(self, obj):\r\n        return obj.table_data_source\r\n\r\n    tb_data_source.short_description = \"数据源名称\"\r\n\r\n    class Media:\r\n        css = {\"all\": (\"css/hide_admin_original.css\",)}\r\n\r\n\r\n@admin.register(DataSourceTableField)\r\nclass DataSourceTableFieldAdmin(admin.ModelAdmin):\r\n    list_display = [\r\n        'ordinal_position', 'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'column_is_pk']\r\n    search_fields = ['column_name_cn', 'column_name_en']\r\n    list_display_links = ['column_name_cn']\r\n\r\n\r\n@admin.register(ThemeDirectory)\r\nclass ThemeDirectoryAdmin(MPTTModelAdmin):\r\n    list_display = ('name',)\r\n    mptt_level_indent = 20\r\n    mptt_indent_field = \"name\"\r\n\r\n\r\n@admin.register(DirectoryTable)\r\nclass DirectoryTableAdmin(admin.ModelAdmin):\r\n    list_display = ('table_name_code', 'directory',)\r\n\r\n    fieldsets = (\r\n        (None, {'fields': ('table_name_code', 'direct_name')}),\r\n    )\r\n\r\n    def directory(self, obj):\r\n        list_dir = []\r\n        for btz in obj.direct_name.get_ancestors():\r\n            list_dir.append(btz.name)\r\n        list_dir.append(obj.direct_name.name)\r\n        print(list_dir)\r\n        return '/'.join(list_dir)\r\n\r\n    directory.short_description = \"关联目录\"\r\n\r\n\r\nadmin.site.site_header = '元数据管理系统'\r\nadmin.site.index_title = '首页'\r\nadmin.site.register(DataSourceType)\r\n# Register your models here.\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/apps/data_tools/admin.py b/apps/data_tools/admin.py
+--- a/apps/data_tools/admin.py	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/apps/data_tools/admin.py	(date 1680758253400)
+@@ -1,17 +1,10 @@
+ from django.contrib import admin
++from django.contrib.admin import AdminSite
+ from mptt.admin import MPTTModelAdmin
+ 
+ from .models import DataSource, DataSourceType, DataSourceTable, DataSourceTableField, ThemeDirectory, DirectoryTable
+ 
+ 
+-class DataSourceTableFieldline(admin.TabularInline):
+-    # resource_class = DataSourceTableFieldForm
+-    model = DataSourceTableField
+-    list_display = (
+-        'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'ordinal_position', 'column_is_pk')
+-    extra = 0
+-
+-
+ @admin.register(DataSource)
+ class DataSourceAdmin(admin.ModelAdmin):
+     list_display = ['meta_source_type', 'data_source_name', 'user_name', 'db_name']
+@@ -24,6 +17,14 @@
+     meta_source_type.short_description = "数据源类型"
+ 
+ 
++class DataSourceTableFieldline(admin.TabularInline):
++    # resource_class = DataSourceTableFieldForm
++    model = DataSourceTableField
++    list_display = (
++        'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'ordinal_position', 'column_is_pk')
++    extra = 0
++
++
+ @admin.register(DataSourceTable)
+ class DataSourceTableAdmin(admin.ModelAdmin):
+     inlines = [DataSourceTableFieldline]
+@@ -37,8 +38,8 @@
+ 
+     tb_data_source.short_description = "数据源名称"
+ 
+-    class Media:
+-        css = {"all": ("css/hide_admin_original.css",)}
++    # class Media:
++    #     css = {"all": ("css/hide_admin_original.css",)}
+ 
+ 
+ @admin.register(DataSourceTableField)
+@@ -75,7 +76,4 @@
+     directory.short_description = "关联目录"
+ 
+ 
+-admin.site.site_header = '元数据管理系统'
+-admin.site.index_title = '首页'
+-admin.site.register(DataSourceType)
+-# Register your models here.
++admin.site.register(DataSourceType)
+\ No newline at end of file
+Index: MrX_Website/simpleui_config.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MrX_Website/simpleui_config.py b/MrX_Website/simpleui_config.py
+new file mode 100644
+--- /dev/null	(date 1680763191088)
++++ b/MrX_Website/simpleui_config.py	(date 1680763191088)
+@@ -0,0 +1,90 @@
++SIMPLEUI_CONFIG = {
++    'system_keep': False,  # 关闭系统菜单
++    'menu_display': ['认证和授权', '工作记录','数据管理工具','扩展工具'],
++    'dynamic': True,  # 设置是否开启动态菜单, 默认为False. 如果开启, 则会在每次用户登陆时动态展示菜单内容
++    'menus': [{
++        'app': 'auth',
++        'name': '认证和授权',
++        'icon': 'fas fa-shield-alt',
++        'models': [{
++            'name': '用户',
++            'icon': 'far fa-user',
++            'url': 'users/users/'
++        }, {
++            'name': '组',
++            'icon': 'fas fa-users-cog',
++            'url': 'auth/group/',
++        }]
++    }, {
++        'app': 'blogs',
++        'name': '工作记录',
++        'icon': '',
++        'models': [{
++            'name': '记录分类',
++            'icon': '',
++            'url': 'blogs/category/'
++        }, {
++            'name': '记录信息',
++            'icon': '',
++            'url': 'blogs/blog/'
++        }, {
++            'name': '记录标签',
++            'icon': '',
++            'url': 'blogs/tag/'
++        }]
++    }, {
++        'app': 'data_tools',
++        'name': '数据管理工具',
++        'icon': '',
++        'models': [{
++            'name': '目录关联管理',
++            'icon': '',
++            'url': 'data_tools/directorytable/'
++        }, {
++            'name': '目录管理',
++            'icon': '',
++            'url': 'data_tools/themedirectory/'
++        }, {
++            'name': '表管理',
++            'icon': '',
++            'url': 'data_tools/datasourcetable/'
++        }, {
++            'name': '字段管理',
++            'icon': '',
++            'url': 'data_tools/datasourcetablefield/'
++        }, {
++            'name': '数据源管理',
++            'icon': '',
++            'url': 'data_tools/datasource/'
++        }, {
++            'name': '数据源类型',
++            'icon': '',
++            'url': 'data_tools/datasourcetype/'
++        }]
++    }, {
++        'app': 'extension_tools',
++        'name': '扩展工具',
++        'icon': '',
++        'models': [{
++            'name': '视频分类',
++            'icon': '',
++            'url': 'extension_tools/videocate/'
++        }, {
++            'name': '视频上传',
++            'icon': '',
++            'url': 'extension_tools/videoupload/'
++        }, {
++            'name': '访客信息',
++            'icon': '',
++            'url': 'extension_tools/tourist/'
++        }, {
++            'name': '友链接',
++            'icon': '',
++            'url': 'extension_tools/link/'
++        }, {
++            'name': '网站公告',
++            'icon': '',
++            'url': 'extension_tools/notice/'
++        }]
++    }]
++}
+Index: apps/extension_tools/admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from django.contrib import admin\r\nfrom .models import Tourist, Link, Notice, VideoCate, VideoUpload\r\n\r\n\r\nclass NoticeAdmin(admin.ModelAdmin):\r\n    list_display = ('level', 'release_time', 'detail')\r\n\r\n\r\nclass TouristAdmin(admin.ModelAdmin):\r\n    list_display = ('IP', 'location', 'start_time', 'count', 'is_lock')\r\n\r\n\r\nclass LinkAdmin(admin.ModelAdmin):\r\n    list_display = ('name', 'link_url', 'link_img', 'add_time')\r\n    search_fields = ('name', 'link_url')\r\n\r\n\r\nclass VideoCateAdmin(admin.ModelAdmin):\r\n    list_display = ('name',)\r\n\r\n\r\nclass VideoUploadAdmin(admin.ModelAdmin):\r\n    list_display = ('file', 'file_name', 'file_cate', 'create_time', 'comment')\r\n\r\n\r\nadmin.site.register(Notice, NoticeAdmin)\r\nadmin.site.register(Link, LinkAdmin)\r\nadmin.site.register(Tourist, TouristAdmin)\r\nadmin.site.register(VideoUpload, VideoUploadAdmin)\r\nadmin.site.register(VideoCate, VideoCateAdmin)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/apps/extension_tools/admin.py b/apps/extension_tools/admin.py
+--- a/apps/extension_tools/admin.py	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/apps/extension_tools/admin.py	(date 1680763100203)
+@@ -1,5 +1,5 @@
+ from django.contrib import admin
+-from .models import Tourist, Link, Notice, VideoCate, VideoUpload
++from apps.extension_tools.models import Tourist, Link, Notice, VideoCate, VideoUpload
+ 
+ 
+ class NoticeAdmin(admin.ModelAdmin):
+@@ -28,3 +28,5 @@
+ admin.site.register(Tourist, TouristAdmin)
+ admin.site.register(VideoUpload, VideoUploadAdmin)
+ admin.site.register(VideoCate, VideoCateAdmin)
++
++
+Index: MrX_Website/settings.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nDjango settings for MrX_Website project.\r\n\r\nGenerated by 'django-admin startproject' using Django 4.1.4.\r\n\r\nFor more information on this file, see\r\nhttps://docs.djangoproject.com/en/4.1/topics/settings/\r\n\r\nFor the full list of settings and their values, see\r\nhttps://docs.djangoproject.com/en/4.1/ref/settings/\r\n\"\"\"\r\nimport os,sys\r\nfrom pathlib import Path\r\n\r\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\r\nBASE_DIR = Path(__file__).resolve().parent.parent\r\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\r\nMEDIA_URL = '/media/'\r\nsys.path.insert(0, BASE_DIR)\r\nsys.path.insert(0, os.path.join(BASE_DIR, 'apps'))\r\n\r\n# Quick-start development settings - unsuitable for production\r\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\r\n\r\n# SECURITY WARNING: keep the secret key used in production secret!\r\nSECRET_KEY = 'django-insecure-hnezhga!%nii*)#)%8g6c+t3o19(kt(s%r7llb#22h+z6-^q4r'\r\n\r\n# SECURITY WARNING: don't run with debug turned on in production!\r\nDEBUG = True\r\n\r\nALLOWED_HOSTS = ['*']\r\n\r\n# Application definition\r\n\r\nINSTALLED_APPS = [\r\n    'django.contrib.admin',\r\n    'django.contrib.auth',\r\n    'django.contrib.contenttypes',\r\n    'django.contrib.sessions',\r\n    'django.contrib.messages',\r\n    'django.contrib.staticfiles',\r\n    'imagekit',\r\n    'apps.users',\r\n    'apps.blogs',\r\n    'apps.extension_tools',\r\n    'apps.data_tools',\r\n    'rest_framework',\r\n    'mdeditor',\r\n]\r\n\r\nMIDDLEWARE = [\r\n    'django.middleware.security.SecurityMiddleware',\r\n    'django.contrib.sessions.middleware.SessionMiddleware',\r\n    'django.middleware.common.CommonMiddleware',\r\n    'django.middleware.csrf.CsrfViewMiddleware',\r\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\r\n    'django.contrib.messages.middleware.MessageMiddleware',\r\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\r\n]\r\n\r\nROOT_URLCONF = 'MrX_Website.urls'\r\n\r\nTEMPLATES = [\r\n    {\r\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\r\n        'DIRS': [BASE_DIR / 'templates']\r\n        ,\r\n        'APP_DIRS': True,\r\n        'OPTIONS': {\r\n            'context_processors': [\r\n                'django.template.context_processors.debug',\r\n                'django.template.context_processors.request',\r\n                'django.contrib.auth.context_processors.auth',\r\n                'django.contrib.messages.context_processors.messages',\r\n            ],\r\n        },\r\n    },\r\n]\r\n\r\nWSGI_APPLICATION = 'MrX_Website.wsgi.application'\r\n\r\n# Database\r\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\r\n\r\nDATABASES = {\r\n    'default': {\r\n        'ENGINE': 'django.db.backends.sqlite3',\r\n        'NAME': BASE_DIR / 'db.sqlite3',\r\n    }\r\n}\r\n\r\n# Password validation\r\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\r\n\r\nAUTH_PASSWORD_VALIDATORS = [\r\n    {\r\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\r\n    },\r\n    {\r\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\r\n    },\r\n    {\r\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\r\n    },\r\n    {\r\n        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',\r\n    },\r\n]\r\n\r\n# Internationalization\r\n# https://docs.djangoproject.com/en/4.1/topics/i18n/\r\n\r\nLANGUAGE_CODE = 'zh-hans'\r\nTIME_ZONE = 'Asia/Shanghai'\r\nUSE_I18N = True\r\nUSE_L10N = True\r\nUSE_TZ = True\r\n\r\n# Static files (CSS, JavaScript, Images)\r\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\r\n\r\nSTATIC_URL = 'static/'\r\n\r\n# Default primary key field type\r\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\r\n\r\nAUTH_USER_MODEL = 'users.Users'\r\n\r\n\r\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\r\n\r\n\r\n\r\n# cache 开发调试缓存配置-\r\n# CACHES = {\r\n#     'default': {\r\n#         # 'BACKEND': 'django.core.cache.backends.dummy.DummyCache',  # 缓存引擎\r\n#         \"BACKEND\": 'django_redis.cache.RedisCache',\r\n#         # 'LOCATION': 'redis://192.168.31.194:6379/3',\r\n#         'LOCATION': 'redis://192.168.145.129:6379/3',\r\n#         'TIMEOUT': 300,  # 缓存超时时间 None表示永不过期，0表示立即过期，默认300秒\r\n#         'OPTIONS': {\r\n#             # 'MAX_ENTRIES': 300,  # 最大缓存记录的数量（默认300）\r\n#             # 'CULL_FREQUENCY': 3,  # 缓存到达最大个数之后，剔除缓存个数的比例，即：1/CULL_FREQUENCY（默认3）\r\n#             \"CLIENT_CLASS\": \"django_redis.client.DefaultClient\",\r\n#             # \"PASSWORD\": \"8693\",\r\n#             \"CONNECTION_POOL_KWARGS\": {\r\n#                 \"max_connections\": 100\r\n#             }\r\n#         },\r\n#     }\r\n# }\r\n#\r\n# # session保存在缓存中\r\n# SESSION_ENGINE = \"django.contrib.sessions.backends.cache\"\r\n# SESSION_CACHE_ALIAS = \"default\"\r\n# SESSION_COOKIE_AGE = 80000  # 默认两周单位秒\r\n# SESSION_COOKIE_HTTPONLY = True  # 设置session cookie是httponly\r\n# SESSION_COOKIE_NAME = 'sessionId'  # session cookie的名字\r\n# SESSION_COOKIE_PATH = '/'  # session cookie的path\r\n# SESSION_COOKIE_SECURE = False  # session cookie的secure\r\n# SESSION_SAVE_EVERY_REQUEST = True\r\n# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MrX_Website/settings.py b/MrX_Website/settings.py
+--- a/MrX_Website/settings.py	(revision 6689738d67f6b91df0de7b6ed72ba70285bdef85)
++++ b/MrX_Website/settings.py	(date 1680763744322)
+@@ -9,9 +9,12 @@
+ For the full list of settings and their values, see
+ https://docs.djangoproject.com/en/4.1/ref/settings/
+ """
+-import os,sys
++import os
++import sys
+ from pathlib import Path
+ 
++from .simpleui_config import SIMPLEUI_CONFIG
++
+ # Build paths inside the project like this: BASE_DIR / 'subdir'.
+ BASE_DIR = Path(__file__).resolve().parent.parent
+ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+@@ -33,7 +36,9 @@
+ # Application definition
+ 
+ INSTALLED_APPS = [
++    'simpleui',
+     'django.contrib.admin',
++    # 'apps.XAdminConfig',
+     'django.contrib.auth',
+     'django.contrib.contenttypes',
+     'django.contrib.sessions',
+@@ -46,6 +51,7 @@
+     'apps.data_tools',
+     'rest_framework',
+     'mdeditor',
++    'mptt',
+ ]
+ 
+ MIDDLEWARE = [
+@@ -126,11 +132,8 @@
+ 
+ AUTH_USER_MODEL = 'users.Users'
+ 
+-
+ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+ 
+-
+-
+ # cache 开发调试缓存配置-
+ # CACHES = {
+ #     'default': {
+@@ -160,4 +163,13 @@
+ # SESSION_COOKIE_PATH = '/'  # session cookie的path
+ # SESSION_COOKIE_SECURE = False  # session cookie的secure
+ # SESSION_SAVE_EVERY_REQUEST = True
+-# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+\ No newline at end of file
++# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
++
++
++# 菜单栏，图片查考
++# https://element.eleme.cn/#/zh-CN/component/icon
++
++
++SIMPLEUI_CONFIG = SIMPLEUI_CONFIG
++SIMPLEUI_HOME_QUICK = False
++SIMPLEUI_HOME_INFO = False

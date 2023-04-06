@@ -1,19 +1,21 @@
 import os
+import uuid
+from datetime import datetime
+
 from django.db import models
 from django.utils import timezone
 from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFill
-import uuid
 
 
 def video_upload_to(instance, filename):
     return 'video/{uuid}/{filename}'.format(uuid=uuid.uuid4().hex, filename=filename)
 
 
-def user_mugshot_path(instance, filename):
+def user_mugshot_path(filename):
     ext = filename.split('.')[-1]
     filename = '{}.{}'.format(uuid.uuid4().hex[:8], ext)
-    return os.path.join('login/uploads/avatar', str(instance.id), filename)
+    return os.path.join('link/link_img', str(datetime.now().date()), filename)
 
 
 class VideoCate(models.Model):
@@ -29,7 +31,7 @@ class VideoCate(models.Model):
 
 class VideoUpload(models.Model):
     file = models.FileField(u'视频', upload_to=video_upload_to, null=False, blank=False)
-    file_name = models.CharField(u'视频名称', max_length=100, default='默认时评', null=False)
+    file_name = models.CharField(u'视频名称', max_length=100, default='默认视频', null=False)
     file_cate = models.ForeignKey(VideoCate, verbose_name='视频分类', on_delete=models.DO_NOTHING)
     create_time = models.DateTimeField(u'上传时间', default=timezone.now, null=False)
     comment = models.CharField(u'备注说明', max_length=100, null=False)

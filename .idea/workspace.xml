@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da1d1009-7b7a-4110-aa10-1b3cdbecc683" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/MrX_Website/simpleui_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/video/df2833de828745489467745ab7a6bbda/企查查批量查询-基础工商信息202303170851.xls" afterDir="false" />
+    <list default="true" id="da1d1009-7b7a-4110-aa10-1b3cdbecc683" name="变更" comment="版本修复主题">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_4_6_14_50_取消提交了变更_[变更]/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_4_6_14_50_取消提交了变更_[变更]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_4_6_14_50_取消提交了变更_[变更]/企查查批量查询-基础工商信息202303170851.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MrX_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MrX_Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MrX_Website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MrX_Website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/data_tools/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/data_tools/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/extension_tools/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/extension_tools/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/extension_tools/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/extension_tools/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MrX_Website/simpleui_config.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2NiaeGfsZpQzzX6RRksdCGumfZ4" />
   <component name="ProjectLevelVcsManager">
@@ -104,7 +101,7 @@
       <updated>1680149449377</updated>
       <workItem from="1680149450642" duration="10220000" />
       <workItem from="1680749636880" duration="4000" />
-      <workItem from="1680749654641" duration="9955000" />
+      <workItem from="1680749654641" duration="11012000" />
     </task>
     <task id="LOCAL-00001" summary="整合所有版本的功能">
       <created>1680750485981</created>
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680763818108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="版本修复主题">
+      <created>1680763913799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680763913799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

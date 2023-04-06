@@ -1,18 +1,19 @@
-import os, uuid
+import os
+import uuid
+from datetime import datetime
+
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
-
-from mdeditor.fields import MDTextField
 from imagekit.models import ProcessedImageField
 from imagekit.processors import ResizeToFill
+from mdeditor.fields import MDTextField
 
 
-
-def user_mugshot_path(instance, filename):
+def user_mugshot_path(filename):
     ext = filename.split('.')[-1]
     filename = '{}.{}'.format(uuid.uuid4().hex[:8], ext)
-    return os.path.join('login/uploads/avatar', str(instance.id), filename)
+    return os.path.join('blogs/blog_img', str(datetime.now().date()), filename)
 
 
 # 分类
@@ -49,10 +50,10 @@ class Blog(models.Model):
     views = models.IntegerField(verbose_name='阅读量', default=0)
     category = models.ForeignKey(Category, verbose_name='文章类别', related_name='cate_blog', on_delete=models.DO_NOTHING)
     tags = models.ManyToManyField(Tag, verbose_name='文章标签', )  # 多对多的外键关系
-    # img = ProcessedImageField(verbose_name="封面图片", upload_to=user_mugshot_path,
-    #                           processors=[ResizeToFill(45, 45)],
-    #                           format='JPEG',
-    #                           options={'quality': 95})
+    img = ProcessedImageField(verbose_name="封面图片", upload_to=user_mugshot_path,
+                              processors=[ResizeToFill(45, 45)],
+                              format='JPEG',
+                              options={'quality': 95})
 
     class Meta:
         verbose_name = '我的博客'
