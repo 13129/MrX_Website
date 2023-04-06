@@ -21,6 +21,11 @@ from MrX_Website import settings
 urlpatterns = [
     re_path(r'^media/(?P<path>.+)$', serve, {'document_root': settings.MEDIA_ROOT}),
     path('admin/', admin.site.urls),
-    # re_path(r'^', include('users.urls')),
-    re_path(r'^api_auth/', include('rest_framework.urls', namespace='rest_framework'))
+    re_path(r'^api_auth/', include('rest_framework.urls', namespace='rest_framework')),
+    re_path(r'mdeditor/', include('mdeditor.urls')),
+    re_path(r'^api/blogs/', include('apps.blogs.urls')),
+    re_path(r'^api/users/', include('apps.users.urls')),
+    re_path(r'^api/extension_tools/', include('apps.extension_tools.urls', namespace='extension_tools')),
+    re_path(r'^api/data_tools/', include('apps.data_tools.urls', namespace='data_tools')),
+
 ]

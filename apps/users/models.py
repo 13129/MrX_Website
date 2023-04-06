@@ -63,4 +63,3 @@ class Users(AbstractUser):
 
     image_data.short_description = '头像'
 
-    # def

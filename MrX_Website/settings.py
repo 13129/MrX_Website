@@ -40,8 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'imagekit',
-    'users',
+    'apps.users',
+    'apps.blogs',
+    'apps.extension_tools',
+    'apps.data_tools',
     'rest_framework',
+    'mdeditor',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +131,33 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
+# cache 开发调试缓存配置-
+# CACHES = {
+#     'default': {
+#         # 'BACKEND': 'django.core.cache.backends.dummy.DummyCache',  # 缓存引擎
+#         "BACKEND": 'django_redis.cache.RedisCache',
+#         # 'LOCATION': 'redis://192.168.31.194:6379/3',
+#         'LOCATION': 'redis://192.168.145.129:6379/3',
+#         'TIMEOUT': 300,  # 缓存超时时间 None表示永不过期，0表示立即过期，默认300秒
+#         'OPTIONS': {
+#             # 'MAX_ENTRIES': 300,  # 最大缓存记录的数量（默认300）
+#             # 'CULL_FREQUENCY': 3,  # 缓存到达最大个数之后，剔除缓存个数的比例，即：1/CULL_FREQUENCY（默认3）
+#             "CLIENT_CLASS": "django_redis.client.DefaultClient",
+#             # "PASSWORD": "8693",
+#             "CONNECTION_POOL_KWARGS": {
+#                 "max_connections": 100
+#             }
+#         },
+#     }
+# }
+#
+# # session保存在缓存中
+# SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# SESSION_CACHE_ALIAS = "default"
+# SESSION_COOKIE_AGE = 80000  # 默认两周单位秒
+# SESSION_COOKIE_HTTPONLY = True  # 设置session cookie是httponly
+# SESSION_COOKIE_NAME = 'sessionId'  # session cookie的名字
+# SESSION_COOKIE_PATH = '/'  # session cookie的path
+# SESSION_COOKIE_SECURE = False  # session cookie的secure
+# SESSION_SAVE_EVERY_REQUEST = True
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True

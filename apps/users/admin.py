@@ -8,6 +8,7 @@ from django.utils.translation import gettext_lazy as _  # 字段国际化
 from .models import Users
 from django.contrib.auth.models import Group
 
+
 class UserCreationForm(forms.ModelForm):
     """创建新用户的表单"""
     username = forms.CharField(label='用户名', widget=forms.TextInput)
@@ -97,7 +98,7 @@ class UsersAdmin(BaseUserAdmin):
         else:
             current_group_set = Group.objects.get(user=request.user)
             group = Group.objects.get(name=current_group_set)
-            users = group.user_set.filter(Q(username=request.user) | Q(is_staff=False,))
+            users = group.user_set.filter(Q(username=request.user) | Q(is_staff=False, ))
             return us.filter(Q(username=request.user) | Q())
 
 # class UsersAdmin(admin.ModelAdmin):
