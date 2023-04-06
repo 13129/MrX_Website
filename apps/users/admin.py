@@ -2,11 +2,11 @@ from django import forms
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin  # 从django继承过来定制
 from django.contrib.auth.forms import ReadOnlyPasswordHashField  # 哈希加密
+from django.contrib.auth.models import Group
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _  # 字段国际化
 
 from .models import Users
-from django.contrib.auth.models import Group
 
 
 class UserCreationForm(forms.ModelForm):
@@ -121,3 +121,6 @@ class UsersAdmin(BaseUserAdmin):
 #                                  'is_staff', 'is_superuser', 'groups'),
 #                              }),
 #                      )
+
+
+apps_index = ["Users"]

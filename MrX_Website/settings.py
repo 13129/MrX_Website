@@ -9,8 +9,11 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-import os,sys
+import os
+import sys
 from pathlib import Path
+
+from .simpleui_config import SIMPLEUI_CONFIG
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,7 +36,9 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'simpleui',
     'django.contrib.admin',
+    # 'apps.XAdminConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -46,6 +51,7 @@ INSTALLED_APPS = [
     'apps.data_tools',
     'rest_framework',
     'mdeditor',
+    'mptt',
 ]
 
 MIDDLEWARE = [
@@ -126,10 +132,7 @@ STATIC_URL = 'static/'
 
 AUTH_USER_MODEL = 'users.Users'
 
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
 
 # cache 开发调试缓存配置-
 # CACHES = {
@@ -161,3 +164,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SESSION_COOKIE_SECURE = False  # session cookie的secure
 # SESSION_SAVE_EVERY_REQUEST = True
 # SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+
+# 菜单栏，图片查考
+# https://element.eleme.cn/#/zh-CN/component/icon
+
+
+SIMPLEUI_CONFIG = SIMPLEUI_CONFIG
+SIMPLEUI_HOME_QUICK = False
+SIMPLEUI_HOME_INFO = False

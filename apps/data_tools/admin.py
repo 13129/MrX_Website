@@ -4,14 +4,6 @@ from mptt.admin import MPTTModelAdmin
 from .models import DataSource, DataSourceType, DataSourceTable, DataSourceTableField, ThemeDirectory, DirectoryTable
 
 
-class DataSourceTableFieldline(admin.TabularInline):
-    # resource_class = DataSourceTableFieldForm
-    model = DataSourceTableField
-    list_display = (
-        'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'ordinal_position', 'column_is_pk')
-    extra = 0
-
-
 @admin.register(DataSource)
 class DataSourceAdmin(admin.ModelAdmin):
     list_display = ['meta_source_type', 'data_source_name', 'user_name', 'db_name']
@@ -22,6 +14,14 @@ class DataSourceAdmin(admin.ModelAdmin):
         return obj.data_source_type
 
     meta_source_type.short_description = "数据源类型"
+
+
+class DataSourceTableFieldline(admin.TabularInline):
+    # resource_class = DataSourceTableFieldForm
+    model = DataSourceTableField
+    list_display = (
+        'column_name_cn', 'column_name_en', 'column_type', 'column_length', 'ordinal_position', 'column_is_pk')
+    extra = 0
 
 
 @admin.register(DataSourceTable)
@@ -37,8 +37,8 @@ class DataSourceTableAdmin(admin.ModelAdmin):
 
     tb_data_source.short_description = "数据源名称"
 
-    class Media:
-        css = {"all": ("css/hide_admin_original.css",)}
+    # class Media:
+    #     css = {"all": ("css/hide_admin_original.css",)}
 
 
 @admin.register(DataSourceTableField)
@@ -75,7 +75,4 @@ class DirectoryTableAdmin(admin.ModelAdmin):
     directory.short_description = "关联目录"
 
 
-admin.site.site_header = '元数据管理系统'
-admin.site.index_title = '首页'
 admin.site.register(DataSourceType)
-# Register your models here.

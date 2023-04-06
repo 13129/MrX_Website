@@ -13,7 +13,17 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/1" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/2" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/3" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/4" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/5" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/6" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login/uploads/avatar/7" />
+      <excludeFolder url="file://$MODULE_DIR$/media/login" />
+      <excludeFolder url="file://$MODULE_DIR$/media/video" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

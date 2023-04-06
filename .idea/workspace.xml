@@ -104,7 +104,7 @@
       <updated>1680149449377</updated>
       <workItem from="1680149450642" duration="10220000" />
       <workItem from="1680749636880" duration="4000" />
-      <workItem from="1680749654641" duration="9602000" />
+      <workItem from="1680749654641" duration="9955000" />
     </task>
     <task id="LOCAL-00001" summary="整合所有版本的功能">
       <created>1680750485981</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680750485981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="版本修复主题">
+      <created>1680763818108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680763818108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="整合所有版本的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合所有版本的功能" />
+    <MESSAGE value="版本修复主题" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本修复主题" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

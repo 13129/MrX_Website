@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Tourist, Link, Notice, VideoCate, VideoUpload
+
+from apps.extension_tools.models import Tourist, Link, Notice, VideoCate, VideoUpload
 
 
 class NoticeAdmin(admin.ModelAdmin):
